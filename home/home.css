@@ -146,24 +146,32 @@ a {
     gap: 100px;
 }
 .livros{
-    display: flex;
-    flex-direction: row;
-    gap: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 5%;
     justify-content: center;
 }
 .livro{
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
     text-align: center;
 }
 .livro img{
     height: 300px;
     width: 200px;
-    margin-bottom: 15px;
 }
 .livro h3{
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 15px;
     text-transform: uppercase;
-    width: 90%;
+    width: 65%;
+}
+.livro-texto{
+    font-size: 0.8em;
 }
 footer {
     background-color: var(--azul-escuro);
