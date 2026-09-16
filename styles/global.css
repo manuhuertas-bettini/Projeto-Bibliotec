@@ -12,6 +12,8 @@
     --fundos: #E9F0EF;
     --textos-paginas:#535353;
     --cor-bordas: #CCCCCC;
+}
+
 html{
     scroll-behavior: smooth;
 }

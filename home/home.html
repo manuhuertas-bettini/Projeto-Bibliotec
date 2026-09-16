@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="shortcut icon" href="../imgs/Icone - Bibliotec.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 <body>
     <header class="cabecalho">
@@ -18,6 +19,9 @@
             <a href="#acervo">Nosso acervo</a>
             <a href="../login/login.html">Login</a>
         </nav>
+        <button class="botao-menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
     </header>
     <main>
         <section class="banner-principal">
@@ -106,41 +110,48 @@
         </section>
     </main>
     <footer>
-        <div class="cima-footer">
-            <div class="logos-footer">
-                <img src="../imgs/Logo Horizontal - branca.svg" alt="Logo Biblio Tec">
-                <img src="../imgs/SENAI_São_Paulo_logo 1.svg" alt="Logo SENAI">
-            </div>
-            <div class="links-footer">
-                <nav class="nav-footer">
-                    <p>Biblioteca</p>
-                    <a href="#">Baixar aplicativo</a>
-                    <a href="#">Suporte ao usuário</a>
-                </nav>
-                <nav class="nav-footer">
-                    <p>Quem somos</p>
-                    <a href="#">Clientes</a>
-                    <a href="#">Benefícios</a>
-                </nav>
-                <nav class="nav-footer redes">
-                    <p>Siga nas redes sociais</p>
-                    <div class="icones-redes-sociais">
-                        <img src="../imgs/icone-facebook.svg" alt="Facebook">
-                        <img src="../imgs/icone-instagram.svg" alt="Instagram">
-                        <img src="../imgs/icone-linkedin.svg" alt="LinkedIn">
-                    </div>
-                </nav>
-            </div>
+      <section class="main">
+        <div class="rodape-logos">
+          <img src="../imgs/Logo Horizontal - branca.svg" alt="Bibliotec" />
+          <img src="../imgs/SENAI_São_Paulo_logo 1.svg" alt="SENAI" />
         </div>
-        <span></span>
-        <div class="ultimo">
-            <p>©Biblio Tec</p>
-            <nav class="ultimos">
-                <a href="#">Acessibilidade</a>
-                <a href="#">Política de Privacidade</a>
-                <a href="#">Termos e condições</a>
-            </nav>
+
+        <div class="rodape-informacoes">
+          <nav class="nav-footer">
+            <p>Biblioteca</p>
+            <a href="#">Baixar aplicativos</a>
+            <a href="#">Suporte ao usuário</a>
+          </nav>
+          <nav class="nav-footer">
+            <p>Quem somos</p>
+            <a href="# ">Clientes</a>
+            <a href="#">Benefícios</a>
+          </nav>
+          <p>Siga nas redes sociais</p>
+          <nav class="rodape-icones">
+            <a href="#facebook">
+              <img src="../imgs/icone-facebook.svg" alt=" Icone do Facebook" />
+            </a>
+            <a href="#instagram">
+              <img src="../imgs/icone-instagram.svg" alt="Icone do Instagram" />
+            </a>
+            <a href="#linkedin">
+              <img src="../imgs/icone-linkedin.svg" alt="Linkedin" />
+            </a>
+          </nav>
         </div>
+      </section>
+
+      <span></span>
+
+      <section class="footer-inferior">
+        <p>&copy; Biblio Tec</p>
+        <nav class="footer">
+          <a href="#">Acessibilidade</a>
+          <a href="#">Politica de Privacidade</a>
+          <a href="#">Termos e condições</a>
+        </nav>
+      </section>
     </footer>
 </body>
 </html>
